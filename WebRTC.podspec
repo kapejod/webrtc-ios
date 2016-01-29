@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "WebRTC"
-  s.version      = "0.0.1"
+  s.version      = "0.0.2"
   s.summary      = "WebRTC static libraries and objc headers."
 
   s.description  = <<-DESC
@@ -20,7 +20,7 @@ Pod::Spec.new do |s|
 
   s.platform     = :ios
 
-  s.source       = { :git => "https://github.com/kapejod/webrtc-ios.git", :tag => "v0.0.1" }
+  s.source       = { :git => "https://github.com/kapejod/webrtc-ios.git", :tag => "v0.0.2" }
 
 
   s.source_files  = "include/*.h"
@@ -28,7 +28,7 @@ Pod::Spec.new do |s|
   s.preserve_path = "lib/libWebRTC.a"
   s.vendored_libraries = "lib/libWebRTC.a"
 
-  s.frameworks = "QuartzCore", "OpenGLES", "AudioToolbox", "AVFoundation", "CoreVideo", "Foundation", "UIKit", "CoreGraphics", "Security", "AssetsLibrary", "MobileCoreServices", "CoreLocation", "CoreMedia", "GLKit"
+  s.frameworks = "QuartzCore", "OpenGLES", "AudioToolbox", "AVFoundation", "CoreVideo", "Foundation", "UIKit", "CoreGraphics", "Security", "AssetsLibrary", "MobileCoreServices", "CoreLocation", "CoreMedia", "GLKit", "VideoToolbox"
   s.libraries = "sqlite3", "stdc++", "System", "util"
 
   s.xcconfig = { 'HEADER_SEARCH_PATHS' => "${PODS_ROOT}/#{s.name}/include/**" }

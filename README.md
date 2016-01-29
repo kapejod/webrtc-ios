@@ -7,3 +7,5 @@ Add one line to your Podfile
 ```
 pod 'WebRTC', :podspec => 'https://raw.githubusercontent.com/kapejod/webrtc-ios/masters/WebRTC.podspec'
 ````
+
+Built with custom patches to support DSCP, HD video capturing (RTCAVFoundationVideoSource), torch mode.
