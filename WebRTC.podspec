@@ -20,7 +20,7 @@ Pod::Spec.new do |s|
 
   s.platform     = :ios
 
-  s.source       = { :git => "https://github.com/kapejod/webrtc-ios.git", :tag => "v0.0.2" }
+  s.source       = { :git => "https://github.com/kapejod/webrtc-ios.git", :tag => "v0.0.3" }
 
 
   s.source_files  = "include/*.h"

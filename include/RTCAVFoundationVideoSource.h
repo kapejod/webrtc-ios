@@ -43,7 +43,13 @@
 
 // Switches the camera being used (either front or back).
 @property(nonatomic, assign) BOOL useBackCamera;
+// Switches the torch
+@property(nonatomic, assign) BOOL useTorch;
+// Zooms
+@property(nonatomic, assign) float zoomFactor;
 // Returns the active capture session.
 @property(nonatomic, readonly) AVCaptureSession* captureSession;
+
+- (NSDictionary *)getCameraCapabilities;
 
 @end
