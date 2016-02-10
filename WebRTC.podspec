@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "WebRTC"
-  s.version      = "0.0.2"
+  s.version      = "0.0.3"
   s.summary      = "WebRTC static libraries and objc headers."
 
   s.description  = <<-DESC
