@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "WebRTC"
-  s.version      = "0.0.5"
+  s.version      = "0.0.6"
   s.summary      = "WebRTC static libraries and objc headers."
 
   s.description  = <<-DESC
@@ -20,7 +20,7 @@ Pod::Spec.new do |s|
 
   s.platform     = :ios
 
-  s.source       = { :git => "https://github.com/kapejod/webrtc-ios.git", :tag => "v0.0.5" }
+  s.source       = { :git => "https://github.com/kapejod/webrtc-ios.git", :tag => "v0.0.6" }
 
 
   s.source_files  = "include/*.h"
