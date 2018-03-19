@@ -1,3 +1,6 @@
+DEPRECATED and not maintained anymore!
+Please use https://github.com/ahoyconference/webrtc-ios instead
+
 webrtc-ios
 ==========
 
